@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "simple-youtube-clone",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple Youtube Clone with React and Babel support; made during Stephen Grider's Ethereum course",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "https://github.com/mishalalex/simple-youtube-clone/upload/main",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -26,6 +26,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "youtube-api-search": "^0.0.5"
   }
 }
